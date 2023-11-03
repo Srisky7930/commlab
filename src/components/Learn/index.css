@@ -1,0 +1,61 @@
+.learn-card {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-head {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'roboto';
+}
+
+.learn-li {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 567px) {
+  .learn-li {
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+}
+
+.training-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.training {
+  font-size: 40px;
+  text-align: center;
+  width: 550px;
+}
+
+@media screen and (max-width: 567px) {
+  .training {
+    font-size: 20px;
+    width: 300px;
+  }
+}
+
+.secure-button-learn {
+  background-color: #cf173f;
+  color: #ffffff;
+  font-size: 30px;
+  border-width: 0px;
+  padding: 15px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  width: 500px;
+}

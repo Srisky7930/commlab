@@ -1,0 +1,189 @@
+.hosts {
+  background-color: #0e0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hosts-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 567px) {
+  .hosts-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    height: 300px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    height: 250px;
+    width: 220px;
+  }
+}
+
+.hosts-head {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .hosts-head {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+
+.name {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.founders {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.name-para {
+  font-size: 14px;
+  color: #ffffff;
+  width: 380px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .name-para {
+    font-size: 10px;
+    color: #ffffff;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name-para {
+    font-size: 8px;
+    color: #ffffff;
+    width: 200px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.host-training {
+  font-size: 40px;
+  text-align: center;
+  color: #ffff;
+}
+
+.host-time {
+  font-size: 40px;
+  text-align: center;
+  color: #ffff;
+  width: 550px;
+}
+
+.host-venue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8a7a3;
+  margin: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .host-venue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8a7a3;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .host-training {
+    font-size: 20px;
+    text-align: center;
+    color: #ffff;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .host-time {
+    font-size: 20px;
+    text-align: center;
+    color: #ffff;
+    width: 300px;
+  }
+}
+
+.price-button {
+  background-color: #cf173f;
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .price-button {
+    background-color: #cf173f;
+    color: #ffffff;
+    border-width: 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .value-product {
+    font-size: 10px;
+  }
+}
+
+.value {
+  text-decoration: line-through;
+}

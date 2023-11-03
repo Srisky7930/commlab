@@ -1,0 +1,18 @@
+.company-card {
+  background-color: #cf173f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 567px) {
+  .company {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .company {
+    width: 100%;
+  }
+}
